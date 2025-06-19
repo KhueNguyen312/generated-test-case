@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>c547b66a-8396-403c-9b79-730808e093ad</id>
@@ -9,7 +8,7 @@
     <description>Navigate to the organization home, access project links, generate user journey maps and test cases, and verify the home page after actions.</description>
     <name>TC2-Generate User Journey Maps and Test Cases in Organization Home</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>1</tag>
     <testCaseGuid>7bc1c762-6dcc-476b-abf8-11dbb33329e2</testCaseGuid>
     <variable>
         <defaultValue>'22490'</defaultValue>
