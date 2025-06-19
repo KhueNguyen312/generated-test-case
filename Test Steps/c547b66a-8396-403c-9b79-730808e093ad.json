@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to /organization/*/home",
+        "step 2: Click on link spSecondProject -> Navigate to page '/team/*/project/*'",
+        "step 3: Click on link trueTestMenu -> Navigate to page '/team/*/project/*/truetest/user-journeys'",
+        "step 4: Click on button notification",
+        "step 5: Click on div backdrop",
+        "step 6: Click on button generateNewUserJourneyMap",
+        "step 7: Click on button generateTestCases",
+        "step 8: Click on button generateUserJourneyMap",
+        "step 9: Click on div dataTrackingStatus",
+        "step 10: Click on div dataTrackingStatus",
+        "step 11: Click on p userJourneyDescription",
+        "step 12: Click on div userJourneyMap",
+        "step 13: Click on button close",
+        "step 14: Click on button generateNewUserJourneyMap",
+        "step 15: Click on input trackingEnvDropdown",
+        "step 16: Click on item allDomainOption",
+        "step 17: Click on button generateTestCases",
+        "step 18: Click on button gotIt",
+        "step 19: Click on div errorMessage -> Navigate to page ''",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}

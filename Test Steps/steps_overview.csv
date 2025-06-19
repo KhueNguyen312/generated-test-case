@@ -1,0 +1,36 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Generate User Journey Maps and Test Cases in Organization Home,"Navigate to the organization home, access project links, generate user journey maps and test cases, and verify the home page after actions.","Step 1: Navigate to /organization/*/home
+Step 2: Click on link spSecondProject -> Navigate to page '/team/*/project/*'
+Step 3: Click on link trueTestMenu -> Navigate to page '/team/*/project/*/truetest/user-journeys'
+Step 4: Click on button notification
+Step 5: Click on div backdrop
+Step 6: Click on button generateNewUserJourneyMap
+Step 7: Click on button generateTestCases
+Step 8: Click on button generateUserJourneyMap
+Step 9: Click on div dataTrackingStatus
+Step 10: Click on div dataTrackingStatus
+Step 11: Click on p userJourneyDescription
+Step 12: Click on div userJourneyMap
+Step 13: Click on button close
+Step 14: Click on button generateNewUserJourneyMap
+Step 15: Click on input trackingEnvDropdown
+Step 16: Click on item allDomainOption
+Step 17: Click on button generateTestCases
+Step 18: Click on button gotIt
+Step 19: Click on div errorMessage -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",High,NEW
+1,Navigate and Verify Search Results on Google Maps,Access the search page and repeatedly click on Google Maps links. Navigate through search results and verify the search page.,"Step 1: Navigate to /search with params (gs lcrp, ie, oq, q, rlz, sourceid)
+Step 2: Click on span googleMaps
+Step 3: Click on span googleMaps
+Step 4: Click on span googleMaps
+Step 5: Click on span googleMaps
+Step 6: Click on link googleMaps
+Step 7: Click on span searchResult
+Step 8: Click on link pagination (pageNavigation)
+Step 9: Click on link pagination (page3)
+Step 10: Click on link pagination (pageNavigation2)
+Step 11: Click on link pagination (page5)
+Step 12: Click on link pagination (page6)
+Step 13: Take full page screenshot as checkpoint
+",Trivial,NEW
