@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>ac4731ef-7900-4428-8b15-22b54e28ad71</id>
+        </flow>
+    </customField>
+    <description>Access the search page and repeatedly click on Google Maps links. Navigate through search results and verify the search page.</description>
+    <name>TC1-Navigate and Verify Search Results on Google Maps</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>8a7eb4d5-8e92-423a-a5e3-e184914ddc96</testCaseGuid>
+    <variable>
+        <defaultValue>'Page 2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3af58aa8-9faf-4f05-b7ce-d15ea003fc9b</id>
+        <masked>false</masked>
+        <name>link_pagination_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>89011e17-f417-4088-8237-3fdec66f3058</id>
+        <masked>false</masked>
+        <name>link_pagination_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>18c2fb28-b62c-4b51-b946-d792d2e35f6d</id>
+        <masked>false</masked>
+        <name>link_pagination_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a703f179-63f5-47f2-b877-61ae7cb5f1e1</id>
+        <masked>false</masked>
+        <name>link_pagination_internalLabel_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>88c51c27-0d7a-4f56-971e-b72d2c9ea7dc</id>
+        <masked>false</masked>
+        <name>link_pagination_internalLabel_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyDQgBEAAYgwEYsQMYgAQyDAgCEEUYOxixAxiABDIGCAMQRRg7MgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1NDY3ajBqN6gCCLACAfEFAukgCuDog2zxBQLpIArg6INs'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8db88d03-e59e-4b85-a83f-a19a9949368d</id>
+        <masked>false</masked>
+        <name>search_gs_lcrp</name>
+    </variable>
+    <variable>
+        <defaultValue>'UTF-8'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>6531f8b7-a0fe-4888-a2df-f8e43979b39f</id>
+        <masked>false</masked>
+        <name>search_ie</name>
+    </variable>
+    <variable>
+        <defaultValue>'googl'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d95d4c17-18aa-47c4-8120-a19cc664a998</id>
+        <masked>false</masked>
+        <name>search_oq</name>
+    </variable>
+    <variable>
+        <defaultValue>'google map'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e17a7225-ced8-4d92-93b8-2c447a1f5865</id>
+        <masked>false</masked>
+        <name>search_q</name>
+    </variable>
+    <variable>
+        <defaultValue>'1C5GCEM_enVN1141VN1141'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>45c56317-9ed3-4919-b23b-1e7d0bbc3e6d</id>
+        <masked>false</masked>
+        <name>search_rlz</name>
+    </variable>
+    <variable>
+        <defaultValue>'chrome'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>eedc7936-9809-42f2-891a-b8897354872a</id>
+        <masked>false</masked>
+        <name>search_sourceid</name>
+    </variable>
+</TestCaseEntity>

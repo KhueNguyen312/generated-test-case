@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /search with params (gs lcrp, ie, oq, q, rlz, sourceid)",
+        "step 2: Click on span googleMaps",
+        "step 3: Click on span googleMaps",
+        "step 4: Click on span googleMaps",
+        "step 5: Click on span googleMaps",
+        "step 6: Click on link googleMaps",
+        "step 7: Click on span searchResult",
+        "step 8: Click on link pagination (pageNavigation)",
+        "step 9: Click on link pagination (page3)",
+        "step 10: Click on link pagination (pageNavigation2)",
+        "step 11: Click on link pagination (page5)",
+        "step 12: Click on link pagination (page6)",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}
