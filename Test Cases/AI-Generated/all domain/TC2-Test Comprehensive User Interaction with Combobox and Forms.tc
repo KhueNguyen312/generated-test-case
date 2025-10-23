@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>a645fbf8-08ec-427d-84fb-b52b804cf249</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC2-Test Comprehensive User Interaction with Combobox and Forms</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>a</tag>
     <testCaseGuid>c201515c-6f95-4662-bbb4-e4e5c77c6d53</testCaseGuid>
     <variable>
         <defaultValue>'3'</defaultValue>
