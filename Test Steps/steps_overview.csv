@@ -1,36 +1,365 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-2,Generate User Journey Maps and Test Cases in Organization Home,"Navigate to the organization home, access project links, generate user journey maps and test cases, and verify the home page after actions.","Step 1: Navigate to /organization/*/home
-Step 2: Click on link spSecondProject -> Navigate to page '/team/*/project/*'
-Step 3: Click on link trueTestMenu -> Navigate to page '/team/*/project/*/truetest/user-journeys'
-Step 4: Click on button notification
-Step 5: Click on div backdrop
-Step 6: Click on button generateNewUserJourneyMap
-Step 7: Click on button generateTestCases
-Step 8: Click on button generateUserJourneyMap
-Step 9: Click on div dataTrackingStatus
-Step 10: Click on div dataTrackingStatus
-Step 11: Click on p userJourneyDescription
-Step 12: Click on div userJourneyMap
-Step 13: Click on button close
-Step 14: Click on button generateNewUserJourneyMap
-Step 15: Click on input trackingEnvDropdown
-Step 16: Click on item allDomainOption
-Step 17: Click on button generateTestCases
-Step 18: Click on button gotIt
-Step 19: Click on div errorMessage -> Navigate to page ''
-Step 20: Take full page screenshot as checkpoint
-",High,NEW
-1,Navigate and Verify Search Results on Google Maps,Access the search page and repeatedly click on Google Maps links. Navigate through search results and verify the search page.,"Step 1: Navigate to /search with params (gs lcrp, ie, oq, q, rlz, sourceid)
-Step 2: Click on span googleMaps
-Step 3: Click on span googleMaps
-Step 4: Click on span googleMaps
-Step 5: Click on span googleMaps
-Step 6: Click on link googleMaps
-Step 7: Click on span searchResult
-Step 8: Click on link pagination (pageNavigation)
-Step 9: Click on link pagination (page3)
-Step 10: Click on link pagination (pageNavigation2)
-Step 11: Click on link pagination (page5)
-Step 12: Click on link pagination (page6)
-Step 13: Take full page screenshot as checkpoint
-",Trivial,NEW
+5,Test Site and Form Type Selection with User Details Input,"Login and navigate to the combobox page. Select site and form types multiple times, input user details, and verify the home page.","Step 1: Navigate to https://vnexpress.net/
+Step 2: Login
+Step 3: Navigate to /combobox.html
+Step 4: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select formTypeSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select formTypeSelection
+Step 5: Select option with input value from select formTypeSelection
+Step 6: Select option with input value from select siteSelection
+Step 7: Select option with input value from select siteSelection
+Step 8: Select option with input value from select siteSelection
+Step 9: Select option with input value from select languageThemeOptions (languageSelection)
+Step 10: Select option with input value from select languageThemeOptions (theme)
+Step 11: Click on input userDetails (firstName)
+Step 12: Enter input value in input userDetails (firstName)
+Step 13: Click on div nativeComboboxExample
+Step 14: Select option with input value from select siteSelection
+Step 15: Select option with input value from select formTypeSelection
+Step 16: Select option with input value from select formTypeSelection
+Step 17: Click on textarea bio
+Step 18: Select option with input value from select formTypeSelection -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",High,STABLE
+4,Traffic Data Management and Verification,Login and navigate to the traffic management page. Load traffic data multiple times and verify the home page.,"Step 1: Navigate to https://vnexpress.net/
+Step 2: Login
+Step 3: Navigate to /env/qa/aut/*
+Step 4: Click on span dynamicObject (object)
+Step 5: Click on span dynamicObject (object2)
+Step 6: Click on div collapse
+Step 7: Click on div expand
+Step 8: Click on span dynamicObject (collapseHeader)
+Step 9: Click on span dynamicObject (collapseHeader2)
+Step 10: Click on button historyDetails
+Step 11: Click on button trafficCatalogItems -> Navigate to page '/env/qa/aut/*/traffic'
+Step 12: Click on button loadTrafficData
+Step 13: Click on button loadTrafficData2
+Step 14: Click on span wwwUnitedCom
+Step 15: Click on div test
+Step 16: Click on button loadTrafficData
+Step 17: Click on span test
+Step 18: Click on div dynamicObject (dynamicObject)
+Step 19: Click on button loadTrafficData2
+Step 20: Click on button loadTrafficData2
+Step 21: Click on button loadTrafficData2
+Step 22: Click on button loadTrafficData3
+Step 23: Click on button loadTrafficData4
+Step 24: Click on button loadTrafficData5
+Step 25: Click on button loadTrafficData6
+Step 26: Click on button loadTrafficData7
+Step 27: Click on button loadTrafficData7
+Step 28: Click on button loadTrafficData8
+Step 29: Click on button loadTrafficData8
+Step 30: Click on button loadTrafficData3
+Step 31: Click on span clearPicker
+Step 32: Click on div object
+Step 33: Click on li object
+Step 34: Click on button loadTrafficData
+Step 35: Click on button loadTrafficData2
+Step 36: Click on button loadTrafficData
+Step 37: Click on button loadTrafficData2
+Step 38: Click on button loadTrafficData9
+Step 39: Click on span wwwUnitedCom
+Step 40: Click on div dynamicObject (dynamicObject2)
+Step 41: Click on main trafficStatistics
+Step 42: Click on button loadTrafficData
+Step 43: Click on span test
+Step 44: Click on div dynamicObject (dynamicObject)
+Step 45: Click on button loadTrafficData2
+Step 46: Click on button loadTrafficData
+Step 47: Click on button loadTrafficData
+Step 48: Click on button loadTrafficData9
+Step 49: Click on button loadTrafficData10
+Step 50: Click on button loadTrafficData4
+Step 51: Click on button loadTrafficData8
+Step 52: Click on button loadTrafficData8
+Step 53: Click on button loadTrafficData4
+Step 54: Click on button loadTrafficData6
+Step 55: Click on button loadTrafficData
+Step 56: Click on button loadTrafficData
+Step 57: Click on button loadTrafficData2
+Step 58: Click on button loadTrafficData2
+Step 59: Click on button loadTrafficData
+Step 60: Click on button loadTrafficData2
+Step 61: Click on input journeyFormOrigin
+Step 62: Click on span allDomain
+Step 63: Click on div dynamicObject (dynamicObject3)
+Step 64: Click on button loadTrafficData
+Step 65: Click on span wwwUnitedCom
+Step 66: Click on div dynamicObject (dynamicObject2)
+Step 67: Click on button loadTrafficData2
+Step 68: Click on span test
+Step 69: Click on div dynamicObject (dynamicObject4)
+Step 70: Click on button loadTrafficData
+Step 71: Click on span trackingEnvironment
+Step 72: Click on div dynamicObject (dynamicObject)
+Step 73: Click on button loadTrafficData
+Step 74: Click on button loadTrafficData
+Step 75: Click on button loadTrafficData2
+Step 76: Click on button loadTrafficData2
+Step 77: Click on button loadTrafficData3
+Step 78: Click on button loadTrafficData3
+Step 79: Click on span allDomain
+Step 80: Click on div dynamicObject (dynamicObject)
+Step 81: Click on button loadTrafficData
+Step 82: Click on span allDomain
+Step 83: Click on div dynamicObject (dynamicObject4)
+Step 84: Click on main trafficStatistics2
+Step 85: Click on button loadTrafficData
+Step 86: Click on div qaStatistics
+Step 87: Click on link driverId -> Navigate to page '/env/qa/aut/*'
+Step 88: Click on link qa -> Navigate to page ''
+Step 89: Take full page screenshot as checkpoint
+",Medium,STABLE
+3,Dynamic Object Interaction with Site and Form Type Selection,"Login and navigate to the combobox page. Interact with dynamic objects, select site and form types, and verify the home page.","Step 1: Navigate to https://vnexpress.net/
+Step 2: Login
+Step 3: Navigate to /combobox
+Step 4: Select site and form type then interact with dynamic object
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 5: Input and click dynamic object multiple times
+	- Step 1: Enter input value in div dynamicObject
+	- Step 2: Click on div dynamicObject
+	- Step 3: Enter input value in div dynamicObject
+	- Step 4: Click on div dynamicObject
+	- Step 5: Enter input value in div dynamicObject
+Step 6: Click on li object
+Step 7: Select option with input value from select formTypeSelection
+Step 8: Click on div dynamicObject (dynamicObject)
+Step 9: Click on div selectLanguage
+Step 10: Select option with input value from select languageThemeOptions (languageSelection2)
+Step 11: Select option with input value from select languageThemeOptions (theme2)
+Step 12: Click on div dynamicObject (dynamicObject2)
+Step 13: Select option with input value from select siteSelection
+Step 14: Select option with input value from select siteSelection
+Step 15: Select option with input value from select siteSelection
+Step 16: Select option with input value from select formTypeSelection
+Step 17: Click on div contactInformationForm
+Step 18: Click on div dynamicObject (dynamicObject)
+Step 19: Click on button removeForm
+Step 20: Click on div selectLanguage2
+Step 21: Select option with input value from select languageThemeOptions (languageSelection3)
+Step 22: Select option with input value from select languageThemeOptions (theme3)
+Step 23: Interact with dynamic object multiple times
+	- Step 1: Click on div dynamicObject
+	- Step 2: Enter input value in div dynamicObject
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 24: Enter input value in div dynamicObject (dynamicObject3)
+Step 25: Click on div dynamicObject (dynamicObject4)
+Step 26: Click on h2 object
+Step 27: Click on button selectUrlExtension
+Step 28: Click on button html
+Step 29: Click on button switchToDarkMode
+Step 30: Click on button switchToLightMode
+Step 31: Select option with input value from select languageThemeOptions (languageSelection3)
+Step 32: Click on item formManagement (formLoadInstruction)
+Step 33: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select siteSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select siteSelection
+Step 34: Select form type and site with a native combobox
+	- Step 1: Select option with input value from select formTypeSelection
+	- Step 2: Select option with input value from select siteSelection
+	- Step 3: Select option with input value from select formTypeSelection
+	- Step 4: Select option with input value from select siteSelection
+	- Step 5: Click on div nativeComboboxExample4
+Step 35: Select option with input value from select formTypeSelection
+Step 36: Click on h3 object
+Step 37: Select option with input value from select siteSelection
+Step 38: Select option with input value from select formTypeSelection
+Step 39: Select site and form type then interact with dynamic object
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 40: Input and click dynamic object multiple times
+	- Step 1: Enter input value in div dynamicObject
+	- Step 2: Click on div dynamicObject
+	- Step 3: Enter input value in div dynamicObject
+	- Step 4: Click on div dynamicObject
+	- Step 5: Enter input value in div dynamicObject
+Step 41: Click on div comboboxInstructions
+Step 42: Click on li object
+Step 43: Select option with input value from select formTypeSelection
+Step 44: Select option with input value from select siteSelection
+Step 45: Select option with input value from select formTypeSelection
+Step 46: Select option with input value from select formTypeSelection
+Step 47: Click on div dynamicObject (dynamicObject5)
+Step 48: Select option with input value from select formTypeSelection -> Navigate to page ''
+Step 49: Take full page screenshot as checkpoint
+",Low,STABLE
+6,Comprehensive User Interaction with Dynamic Objects and Forms,"Login and navigate to the combobox page. Input user details, interact with dynamic objects, and verify the home page.","Step 1: Navigate to https://vnexpress.net/
+Step 2: Login
+Step 3: Navigate to /combobox.html
+Step 4: Click on link comboBox
+Step 5: Click on link navCombobox
+Step 6: Click on link navCombobox
+Step 7: Click on link navCombobox
+Step 8: Click on item formManagement (removeLoadedForms)
+Step 9: Click on link navCombobox
+Step 10: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select siteSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select siteSelection
+Step 11: Select option with input value from select formTypeSelection
+Step 12: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select siteSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select siteSelection
+Step 13: Select option with input value from select formTypeSelection
+Step 14: Click on div comboboxExample
+Step 15: Click on div comboboxExample
+Step 16: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select siteSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select siteSelection
+Step 17: Click on div comboboxExample
+Step 18: Click on div contactInformationForm
+Step 19: Click on div dynamicObject (dynamicObject)
+Step 20: Enter input value in div dynamicObject (dynamicObject)
+Step 21: Click on div object
+Step 22: Interact with dynamic object multiple times
+	- Step 1: Click on div dynamicObject
+	- Step 2: Enter input value in div dynamicObject
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 23: Enter input value in div dynamicObject (dynamicObject9)
+Step 24: Click on div comboboxContainer (object2)
+Step 25: Input user and card details in the form
+	- Step 1: Click on input userDetails
+	- Step 2: Enter input value in input userDetails
+	- Step 3: Click on input userDetails
+	- Step 4: Enter input value in input userDetails
+	- Step 5: Click on input cardDetails
+Step 26: Enter input value in input cardDetails (expirationDate)
+Step 27: Select option with input value from select languageThemeOptions (languageSelection4)
+Step 28: Select option with input value from select languageThemeOptions (theme4)
+Step 29: Click on label notificationSettings (enableNotifications)
+Step 30: Select option with input value from select formTypeSelection
+Step 31: Select option with input value from select siteSelection
+Step 32: Click on div dynamicObject (dynamicObject)
+Step 33: Enter input value in div dynamicObject (dynamicObject)
+Step 34: Click on div object
+Step 35: Click on input userDetails (address)
+Step 36: Enter input value in input userDetails (address)
+Step 37: Click on input userDetails (city)
+Step 38: Enter input value in input userDetails (city)
+Step 39: Click on div object
+Step 40: Interact with dynamic object multiple times
+	- Step 1: Click on div dynamicObject
+	- Step 2: Enter input value in div dynamicObject
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 41: Click on div comboboxExample
+Step 42: Select option with input value from select siteSelection
+Step 43: Select option with input value from select formTypeSelection
+Step 44: Select option with input value from select formTypeSelection
+Step 45: Click on link dragAndDrop -> Navigate to page '/drag-drop'
+Step 46: Click on link dynamicElements -> Navigate to page '/dynamic-elements'
+Step 47: Click on link fileUpload -> Navigate to page '/file-upload'
+Step 48: Click on link vinothQademo
+Step 49: Click on link listCard
+Step 50: Click on link comboBox
+Step 51: Select site and form type then interact with dynamic object
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Click on div dynamicObject
+	- Step 4: Enter input value in div dynamicObject
+	- Step 5: Click on div dynamicObject
+Step 52: Click on label notificationSettings (enableTwoFactorAuth)
+Step 53: Select option with input value from select formTypeSelection
+Step 54: Select option with input value from select siteSelection
+Step 55: Select option with input value from select siteSelection
+Step 56: Select option with input value from select siteSelection
+Step 57: Select option with input value from select formTypeSelection
+Step 58: Select option with input value from select formTypeSelection
+Step 59: Click on input userDetails (firstName2)
+Step 60: Click on div object3
+Step 61: Click on input userDetails (lastName)
+Step 62: Click on input userDetails (email)
+Step 63: Click on textarea bio
+Step 64: Click on div nativeComboboxExample2
+Step 65: Select option with input value from select siteSelection
+Step 66: Select option with input value from select formTypeSelection
+Step 67: Select site and form type multiple times
+	- Step 1: Select option with input value from select siteSelection
+	- Step 2: Select option with input value from select formTypeSelection
+	- Step 3: Select option with input value from select formTypeSelection
+	- Step 4: Select option with input value from select formTypeSelection
+	- Step 5: Select option with input value from select formTypeSelection
+Step 68: Select option with input value from select formTypeSelection
+Step 69: Select option with input value from select formTypeSelection
+Step 70: Click on div nativeComboboxExample3
+Step 71: Select option with input value from select formTypeSelection
+Step 72: Select option with input value from select formTypeSelection
+Step 73: Click on input userDetails (email)
+Step 74: Enter input value in input userDetails (email)
+Step 75: Click on input userDetails (phone)
+Step 76: Click on textarea bio
+Step 77: Enter input value in textarea bio
+Step 78: Click on input userDetails (phone)
+Step 79: Enter input value in input userDetails (phone)
+Step 80: Click on input userDetails (address2)
+Step 81: Enter input value in input userDetails (address2)
+Step 82: Click on div comboboxChild
+Step 83: Click on input userDetails (city2)
+Step 84: Enter input value in input userDetails (city2)
+Step 85: Click on input userDetails (postalCode)
+Step 86: Enter input value in input userDetails (postalCode)
+Step 87: Click on div comboboxContainer (comboboxContainer)
+Step 88: Click on header billingDetailsForm
+Step 89: Input user and card details in the form
+	- Step 1: Click on input userDetails
+	- Step 2: Enter input value in input userDetails
+	- Step 3: Click on input userDetails
+	- Step 4: Enter input value in input userDetails
+	- Step 5: Click on input cardDetails
+Step 90: Enter input value in input cardDetails (expirationDate2)
+Step 91: Click on input cardDetails (cvv)
+Step 92: Enter input value in input cardDetails (cvv)
+Step 93: Click on item selectSiteId
+Step 94: Click on input userDetails (password)
+Step 95: Enter input value in input userDetails (password)
+Step 96: Click on input userDetails (password2)
+Step 97: Enter input value in input userDetails (password2)
+Step 98: Select option with input value from select languageThemeOptions (languageSelection2)
+Step 99: Select option with input value from select languageThemeOptions (theme2)
+Step 100: Click on label notificationSettings (enableNotifications2)
+Step 101: Click on div userProfileForm
+Step 102: Click on input userDetails (firstName2)
+Step 103: Enter input value in input userDetails (firstName2)
+Step 104: Click on div object3
+Step 105: Click on input userDetails (lastName)
+Step 106: Enter input value in input userDetails (lastName)
+Step 107: Click on input userDetails (email)
+Step 108: Enter input value in input userDetails (email)
+Step 109: Click on textarea bio
+Step 110: Enter input value in textarea bio
+Step 111: Click on input userDetails (address2)
+Step 112: Enter input value in input userDetails (address2)
+Step 113: Select option with input value from select formTypeSelection
+Step 114: Click on div siteSelection
+Step 115: Select option with input value from select siteSelection
+Step 116: Select option with input value from select formTypeSelection
+Step 117: Select option with input value from select siteSelection -> Navigate to page ''
+Step 118: Take full page screenshot as checkpoint
+",Trivial,STABLE

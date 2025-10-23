@@ -25,6 +25,7 @@ public class TrueTestScripts {
             // Login.login()
             // Trigger a custom Login keyword
             // CustomKeywords.login()
+            test 1
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
                 KeywordUtil.logInfo(e.getMessage())
@@ -77,6 +78,44 @@ public class TrueTestScripts {
     
     public static void navigate(String path) {
         this.do_navigate(path, "");
+    }
+    
+    public static void selectOption(TestObject to, String rawValue, String selectionMode) {
+        selectionMode = selectionMode?.toLowerCase() ?: "value"
+        
+        def parsedValue = rawValue
+        if (!parsedValue.startsWith("[")) {
+            parsedValue = "[\"" + parsedValue + "\"]"
+        }
+        
+        def jsonSlurper = new JsonSlurper()
+        def options = jsonSlurper.parseText(parsedValue)
+        
+        if (options && options[0] instanceof Map) {
+            options = options.collect {
+                switch (selectionMode) {
+                    case "value":
+                    return it.value
+                    case "label":
+                    return it.label
+                    default:
+                    throw new IllegalArgumentException("Unsupported selection mode: " + selectionMode)
+                }
+            }
+        }
+        
+        for (option in options) {
+            switch (selectionMode) {
+                case "value":
+                WebUI.selectOptionByValue(to, Pattern.quote(option.toString()), true)
+                break
+                case "label":
+                WebUI.selectOptionByLabel(to, Pattern.quote(option.toString()), true)
+                break
+                default:
+                throw new IllegalArgumentException("Unsupported selection mode: " + selectionMode)
+            }
+        }
     }
     
     public static void selectOptionByValue(TestObject to, String rawValue) {
